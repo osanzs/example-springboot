@@ -11,9 +11,12 @@
 
 package edu.comillas.icai.pat.ejemplopat.service;
 
+import edu.comillas.icai.pat.ejemplopat.dto.Contact;
+
 public interface MyService {
 
     String getHealthCheck(String name);
+    Contact getDemoUser(Integer id);
 
 
 }

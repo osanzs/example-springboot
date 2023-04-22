@@ -36,8 +36,10 @@ Invocar operación *"healthCheck"*
 
 > http://localhost:8888/api/health?name=demo
 
- 
 
 ## Nuevas funcionalidades
 
-TBD
+Invocar operación *"contactController"* para devolver la información de los usuarios DEMO almacenados en la BBDD H2. El campo ID representa el identificador del usuario en Base de Datos
+
+> http://localhost:8888/data/contact?id=1
+
